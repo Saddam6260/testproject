@@ -10,6 +10,13 @@
 
 .md_container {
     height: 440px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "spring spring item24 new"
+        "spring spring newExpand newExpand";
+        grid-gap: 20px;
 }
 
 .cus_card {
@@ -59,35 +66,35 @@
     color: white;
 }
 
-.fr_col_1 {
+.spring {
     padding-top: 147px;
     background-image: url("../img/spring2020.png");
-    width: 48.8%;
+    grid-area: spring;
 }
 .fr_col_2 {
-    width: 48.8%;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
 }
-.sr_col_1 {
+.item24{
     background-image: url("../img/pexels.jpg");
-    width: 48%;
+    grid-area: item24;
 }
 
-.sr_col_2 {
+.new {
     background-image: url("../img/chris.png");
-    width: 48%;
+    grid-area: new;
 }
 
-.sr_col_3 {
+.newExpand {
     background-image: url("../img/Mask.png");
     background-color: #eda3b5;
     background-size: 300px 100%;
     background-position: right center;
+    grid-area: newExpand;
 }
 
-.sr_col_3::after {
+.newExpand::after {
     background: linear-gradient(
         270deg,
         rgba(244, 162, 182, 0.0001) 0%,
@@ -99,11 +106,4 @@
     left: initial;
     opacity: 1;
     border-radius: initial;
-}
-.sr_1 {
-    height: 47.5%;
-}
-
-.sr_2 {
-    height: 47.5%;
 }
