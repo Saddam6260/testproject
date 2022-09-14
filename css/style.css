@@ -1,0 +1,85 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;700&display=swap');
+/* font family */
+
+/* Common style */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+}
+.bras{
+    background-color: aquamarine;
+    border-radius: 8px;
+    height: 32px;
+    width: 96px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.bras p{
+    font-size: 14px;
+    color: #eda3b5;
+}
+.border{
+    border-radius: 16px;
+}
+.spring-row{
+    height: 440px;
+}
+/* Common style */
+
+.col-1-bg{
+    /* background-image: url("../img/col1-bg.png"); */
+    background-color: #eda3b5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.linear-gradient{
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(180deg, rgba(52, 52, 52, 0.0001) 0%, #343434 100%); */
+    border-radius: 16px;
+    z-index: 1;
+    opacity: 0.4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.spring-content{
+    margin-top: 146px;
+    margin-left: 32px;
+}
+.spring-content h3{
+    font-size: 20px;
+    margin-bottom: 24px;
+    z-index: 2;
+}
+
+.col-first{
+    background-color: #efeff4;
+}
+.col-last{
+    /* background-image: url("../img/new-img.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.new-bras{
+    margin-top: 32px;
+    margin-left: 32px;
+    width: 72px;
+}
+
+.row-bg-girl{
+    background-color: #eda3b5;
+    /* background-image: url("../img/row-img.png"); */
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: right top;
+}
