@@ -1,0 +1,27 @@
+.container{
+    height: 440px;
+}
+.bg-image{
+    background-image: url("../img/spring2020.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+@media only screen and (min-width:768px) {
+    .h-control{
+        height: 100% !important;
+    }
+    .h-col2-control{
+        height: 50% !important;
+    }
+}
+
+@media only screen and (min-width:1400px) {
+    .h-col2-control{
+        height: 100% !important;
+    }
+    .c{
+        height: 50% !important;
+    }
+}
