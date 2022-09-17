@@ -1,4 +1,4 @@
-.container{
+/* .container{
     height: 440px;
 }
 .bg-image{
@@ -24,4 +24,101 @@
     .c{
         height: 50% !important;
     }
+} */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;700&display=swap');
+
+/* common style*/
+*{
+    font-family: 'Mulish', sans-serif;
 }
+.container{
+    height: 440px;
+}
+.c-style{
+    border-radius: 16px;
+    padding-top: 32px;
+    padding-left: 32px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.c-style::after{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(52, 52, 52, 0.0001) 0%, #343434 100%);
+    position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    border-radius: 16px;
+}
+.batch{
+    color: white;
+    height: 32px;
+    padding-top: 7px;
+    padding-left: 21px;
+    padding-right: 22px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #ffffff40;
+    border-radius: 8px;
+}
+span{
+    color: white;
+}
+/* common style*/
+
+/* main style */
+.spring{
+    padding-top: 114px;
+}
+.spring h3{
+    color: #ffffff;
+    padding-bottom: 24px;
+}
+.fr-col{
+    background-image: url("../img/spring2020.png");
+}
+.sr-col1{
+    background-image: url("../img/pexels.jpg");
+}
+.sr-col2{
+    background-image: url("../img/chris.png");
+}
+.tr-col{
+    background: #EDA3B5;
+    background-image: url("../img/Mask.png");
+    background-position: right top;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}
+.tr-col::after{
+    left: initial;
+    right: 21.90%;
+    width: 28.67%;
+    background: linear-gradient(270deg, rgba(244, 162, 182, 0.0001) 0%, #EDA3B5 100%);
+    opacity: 1.4;
+}
+
+@media only screen and (min-width:768px) {
+    .th-control{
+        height: 100% !important;
+    }
+    .bh-control{
+        height: 75%!important;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .bh-control{
+        height: 50% !important;
+    }
+}
+
+/* main style */
