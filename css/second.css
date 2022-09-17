@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;700&family=Playfair+Display&display=swap');
+
+/* Common style */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+.c-body p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #8E8E93;
+}
+.batch{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #EDA3B5;
+    border-radius: 16px;
+    color: #EDA3B5;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+.c-card{
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.c-body{
+    padding: 32px;
+}
+span{
+    font-size: 24px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.img{
+    border-radius: 16px 16px 0px 0px;
+}
+/* Common style */
+
+@media only screen and (min-width:768px) {
+    .c-body{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+    }
+}
+@media only screen and (min-width:1000px) {
+    .c-body{
+        padding-right: 70px;
+        padding-top: 50px;
+    }
+}
