@@ -1,0 +1,68 @@
+.third-container{
+    padding: 32px 32px 16px 61px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.girl-c{
+    width: 280px;
+    height: 436px;
+}
+.items{
+    height: 84px;
+}
+.love-icon{
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    background: #EDA3B5;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.batch{
+    width: 96px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #e5e5ea;
+    padding-top: 4px;
+    margin-left: 0px;
+}
+.love-icon p{
+    font-size: 30px;
+    color: white;
+}
+.nav-ber{
+    list-style: none;
+    padding-left: 0px;
+}
+.nav-ber li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.nav-ber li a{
+    color: #EDA3B5;
+}
+.nav-ber li .unic{
+    color: #c7c7cc;
+}
+.border-h{
+    height: 2px;
+    background-color: #ebebf0;
+}
+.pink-border{
+    background-color: #EDA3B5;
+}
+.l-batch{
+    width: 160px;
+    height: 52px;
+    border-radius: 16px;
+    background-color: #EDA3B5;
+    color: white;
+    font-size: 20px;
+}
+.bg-change{
+    background-color: #ffffff;
+    border: 2px solid #EDA3B5;
+    color: #EDA3B5;
+}
