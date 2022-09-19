@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;700&family=Playfair+Display&display=swap');
+
+/* Common style */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #8E8E93;
+}
+.main-bg-container{
+    height: 440px;
+}
+.c-style{
+    border-radius: 16px;
+    padding-top: 32px;
+    padding-left: 32px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.c-style::after{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(52, 52, 52, 0.0001) 0%, #343434 100%);
+    position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    border-radius: 16px;
+}
+.batch{
+    color: white;
+    height: 32px;
+    padding-top: 7px;
+    padding-left: 21px;
+    padding-right: 22px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #ffffff40;
+    border-radius: 8px;
+}
+
+/* common style*/
+
+/* * Header */ */
+.logo{
+    height: 26px;
+    padding-top: 39px;
+    padding-bottom: 30px;
+}
+.logo img{
+    height: 23px;
+    width: 22px;
+}
+.logo h4{
+    font-size: 24px;
+    margin-top: 5px;
+}
+.shop h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+/* Heading */
+
+/* main bg style */
+.c-style h1{
+    color: white;
+    font-size: 34px;
+    line-height: 51px;
+}
+.c-style p{
+    color: #ffffff;
+    font-size: 20px;
+}
+.women-col{
+    background-image: url("../img/spring2020.png");
+}
+.best-col{
+    background-image: url("../img/pexels.jpg");
+    padding-top: 94px;
+}
+.dress-col{
+    background-image: url("../img/chris.png");
+}
+.dress{
+    padding-top: 66px;
+}
+.jeckets-col{
+    background: #EDA3B5;
+    background-image: url("../img/Mask.png");
+    background-position: right top;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}
+.jeckets-col::after{
+    left: initial;
+    right: 21.90%;
+    width: 28.67%;
+    background: linear-gradient(270deg, rgba(244, 162, 182, 0.0001) 0%, #EDA3B5 100%);
+    opacity: 1.4;
+}
+.jeket{
+    padding-top: 66px;
+}
+
+@media only screen and (min-width:768px) {
+    .th-control{
+        height: 100% !important;
+    }
+    .bh-control{
+        height: 75%!important;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .bh-control{
+        height: 50% !important;
+    }
+}
+
+/* main bg style */
